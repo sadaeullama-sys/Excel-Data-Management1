@@ -1,6 +1,5 @@
-
-name: excel_data_management
-description: Excel Data Finder and Franchise Manager
+name: excel_franchise_finder
+description: Offline Excel Data Finder and Franchise Manager
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -10,15 +9,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
   cupertino_icons: ^1.0.8
-  file_picker: ^8.1.7
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  file_picker: ^8.1.2
   excel: ^4.0.6
-  shared_preferences: ^2.3.5
+  shared_preferences: ^2.3.2
+  crypto: ^3.0.6
+  intl: ^0.19.0
+  pdf: ^3.11.1
+  printing: ^5.13.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
