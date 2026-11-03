@@ -2,7 +2,6 @@
     <application
         android:label="Excel Data Finder"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
 
         <activity
             android:name=".MainActivity"
